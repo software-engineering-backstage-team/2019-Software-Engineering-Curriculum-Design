@@ -10,7 +10,7 @@ from django.conf import settings
 from django.core import mail
 
 
-# Create your views here.
+# Please Create your views here.
 
 def welcome(request):
     return render(request, 'Welcome.html')  # 引入欢迎页
